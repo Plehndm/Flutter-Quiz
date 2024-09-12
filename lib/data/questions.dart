@@ -210,4 +210,34 @@ const questions = [
       'Before everything else in the class',
     ],
   ),
+  QuizQuestion(
+    'Video 3_14',
+    'How do you set a Widget to be as wide as possible?', 
+    [
+      'width: double.infinity', 
+      'width: 1000', 
+      'width: double.null', 
+      'width: max_screen_width()',
+    ],
+  ),
+  QuizQuestion(
+    'Video 3_18',
+    'How do you de-nest a list of lists?', 
+    [
+      '[...myList, 1, 2, 3, 4]', 
+      '[myList, 1, 2, 3, 4]', 
+      '[myList.spread(), 1, 2, 3, 4]', 
+      '[myList.expand(), 1, 2, 3, 4]',
+    ],
+  ),
+  QuizQuestion(
+    'Video 3_19',
+    'Which of these built in functions [shuffle() and map()] modify the original list?', 
+    [
+      'Only shuffle()', 
+      'Both shuffle() and map()', 
+      'Only map()', 
+      'Neither functions',
+    ],
+  ),
 ];
