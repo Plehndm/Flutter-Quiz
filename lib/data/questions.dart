@@ -240,4 +240,14 @@ const questions = [
       'Neither functions',
     ],
   ),
+  QuizQuestion(
+    'Video 3_33',
+    'What does an underscore before a class or variable name do?', 
+    [
+      'It makes the variable or class private', 
+      'It does nothing and is merely a naming convention', 
+      'It makes variables private but not classes', 
+      'It makes classes private but not variables',
+    ],
+  ),
 ];
