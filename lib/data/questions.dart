@@ -85,10 +85,10 @@ const questions = [
     'Video 2_13',
     'What command formats your code in VSCode?', 
     [
-      'Format Document', 
-      'Format', 
-      'Align Document', 
-      'Beautify Document',
+      'Ctrl + Shift + P -Format Document', 
+      'Ctrl + Shift + P -Format', 
+      'Ctrl + Shift + P -Align Document', 
+      'Ctrl + Shift + P -Beautify Document',
     ],
   ),
   QuizQuestion(
